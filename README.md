@@ -182,3 +182,7 @@ If you use this code in your research, please cite:
   year={2025}
 }
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
