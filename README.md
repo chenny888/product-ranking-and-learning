@@ -39,8 +39,8 @@ The code implements algorithms for revenue management problems where customers h
 
 2. **Clone and setup**:
    ```bash
-   git clone <repository-url>
-   cd revenue-management-experiments
+   git clone https://github.com/chenny888/product-ranking-and-learning.git
+   cd product-ranking-and-learning
    ```
 
 3. **Install dependencies**:

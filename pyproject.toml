@@ -29,6 +29,6 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/username/revenue-management-experiments"
-Repository = "https://github.com/username/revenue-management-experiments"
-Issues = "https://github.com/username/revenue-management-experiments/issues"
+Homepage = "https://github.com/chenny888/product-ranking-and-learning"
+Repository = "https://github.com/chenny888/product-ranking-and-learning"
+Issues = "https://github.com/chenny888/product-ranking-and-learning/issues"
