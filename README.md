@@ -1,6 +1,7 @@
-# Revenue Management with Ranking Learning: Replication Package
+# Revenue Maximization and Learning in Product Ranking: Replication Package
 
-This repository contains the code and data for reproducing the numerical experiments from the paper "Revenue Management with Ranking Learning" submitted to Operations Research.
+This repository contains the code and data for reproducing the numerical experiments from the paper "Revenue Maximization and Learning in Product
+Ranking" accepted to be published in Operations Research.
 
 ## Overview
 
@@ -15,10 +16,10 @@ The code implements algorithms for revenue management problems where customers h
 ```
 ├── README.md                           # This file
 ├── pyproject.toml                      # Dependency management with uv
+├── LICENSE                            # MIT License
 ├── Offline_Experiments_Section_6_1.ipynb  # Jupyter notebook for offline experiments
 ├── Online_experiment_Section_6_2.py       # Python script for online experiments
-├── utils.py                               # Core utility functions and algorithms
-└── GITHUB_UPLOAD_GUIDE.md                # Instructions for GitHub setup
+└── utils.py                               # Core utility functions and algorithms
 ```
 
 ## Prerequisites
@@ -50,6 +51,12 @@ The code implements algorithms for revenue management problems where customers h
 4. **Activate the virtual environment**:
    ```bash
    source .venv/bin/activate
+   ```
+
+5. **Test the setup** (optional):
+   ```bash
+   # Test that core functions work
+   uv run python -c "from utils import *; print('✓ Setup successful')"
    ```
 
 ### Option 2: Using pip
