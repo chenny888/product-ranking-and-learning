@@ -1,24 +1,10 @@
 [project]
-name = "revenue-management-experiments"
+name = "product-ranking-and-learning"
 version = "0.1.0"
-description = "Replication package for 'Revenue Management with Ranking Learning' - numerical experiments and algorithms"
+description = "Replication package for 'Revenue Maximization and Learning in Product
+Ranking' - numerical experiments and algorithms"
 readme = "README.md"
 requires-python = ">=3.9"
-authors = [
-    {name = "Research Team", email = "author@example.com"}
-]
-keywords = ["revenue-management", "ranking", "optimization", "machine-learning", "operations-research"]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Science/Research",
-    "Topic :: Scientific/Engineering :: Mathematics",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-]
 dependencies = [
     "jupyter>=1.0.0",
     "matplotlib>=3.5.0",
