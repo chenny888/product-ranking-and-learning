@@ -59,7 +59,7 @@ Thumbs.db
 .dmypy.json
 dmypy.json
 
-# Data files (keep pickle files for reproducibility)
-# Uncomment the following lines if you want to exclude data files:
-# *.pickle
-# *.pkl
+# Data files and documents
+*.pickle
+*.pkl
+*.pdf

@@ -136,14 +136,17 @@ revenue-management-experiments/
 ├── utils.py                           # Core algorithms
 ├── Offline_Experiments_Section_6_1.ipynb  # Offline experiments
 ├── Online_experiment_Section_6_2.py       # Online experiments
-├── online_data_iter_*.pickle              # Pre-computed results
-├── ranking_OR_review_round_2.pdf          # Research paper
-├── .gitignore                             # Git ignore rules
-└── .python-version                        # Python version spec
+├── GITHUB_UPLOAD_GUIDE.md             # This guide
+├── LICENSE                            # MIT license
+├── .gitignore                         # Git ignore rules
+└── .python-version                    # Python version spec
 ```
+
+Note: Data files (`*.pickle`) and documents (`*.pdf`) are excluded from the repository. Users will generate these locally when running experiments.
 
 Users will be able to:
 - Clone the repository
 - Install dependencies with `uv sync`
 - Run validation with `uv run python validate_setup.py`
 - Reproduce all experiments following the README instructions
+- Generate their own data files by running the experiments

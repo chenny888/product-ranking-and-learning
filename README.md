@@ -18,8 +18,7 @@ The code implements algorithms for revenue management problems where customers h
 ├── Offline_Experiments_Section_6_1.ipynb  # Jupyter notebook for offline experiments
 ├── Online_experiment_Section_6_2.py       # Python script for online experiments
 ├── utils.py                               # Core utility functions and algorithms
-├── online_data_iter_*.pickle              # Pre-generated data from online experiments
-└── ranking_OR_review_round_2.pdf          # Research paper
+└── GITHUB_UPLOAD_GUIDE.md                # Instructions for GitHub setup
 ```
 
 ## Prerequisites
@@ -105,7 +104,7 @@ The online experiments simulate learning customer attention parameters in real-t
    - Cumulative revenues over time
    - Comparison with known-parameter benchmarks
 
-**Note**: The complete online experiments may take several hours to run. Pre-computed results are included as `online_data_iter_*.pickle` files.
+**Note**: The online experiments take several hours to run (2-6 hours for all 10 iterations). The script will create data files locally as it runs.
 
 ## Key Algorithms Implemented
 
@@ -135,14 +134,22 @@ The online experiments simulate learning customer attention parameters in real-t
 - Learning curves showing parameter estimation accuracy over time
 - Revenue performance comparison between learning and benchmark algorithms
 - Convergence analysis of the online learning algorithm
+- Generates 10 data files: `online_data_iter_1.pickle` through `online_data_iter_10.pickle`
+
+## Generated Data Files
+
+When you run the online experiments, the following files will be created:
+- `online_data_iter_1.pickle` to `online_data_iter_10.pickle`: Results from each simulation iteration
+- Each file contains experimental data including estimation errors, revenue histories, and performance metrics
+- These files can be loaded in Python using `pickle.load()` for further analysis
 
 ## Computational Requirements
 
 - **Memory**: ~2-4 GB RAM recommended
 - **Runtime**: 
   - Offline experiments: ~10-30 minutes
-  - Online experiments: ~2-6 hours for all iterations
-- **Storage**: ~50 MB for all generated data files
+  - Online experiments: ~2-6 hours for all iterations (generates ~10 data files)
+- **Storage**: ~50 MB for generated data files
 
 ## Dependencies
 
